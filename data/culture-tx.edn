@@ -1,0 +1,14 @@
+;; data/culture-tx.edn — DataScript tx-data derived from src/culture/facts.cljc
+;; `culture.facts/catalog` (ADR-2607171400 addendum 2, Wave 1 country-level).
+;; Same shape across every cloud-itonami-iso3166-* sibling. Do not hand-edit;
+;; regenerate from the catalog.
+
+[
+#:culture{:url "https://en.wikipedia.org/wiki/Moambe", :id "gab.dish.nyembwe-chicken", :kind :dish, :name-local "Poulet nyembwe", :country "GAB", :retrieved-at "2026-07-17", :summary "Chicken cooked in nyembwe, the Gabonese palm-butter sauce (from the Myene word for palm oil); considered a national dish of Gabon.", :name "Nyembwe chicken", :url-provenance :wikipedia-en}
+#:culture{:id "gab.dish.fufu", :name "Fufu", :country "GAB", :kind :dish, :summary "Pounded cassava, one of the traditional dishes of Gabonese cuisine, whose rural staples include cassava, rice and yams.", :url "https://en.wikipedia.org/wiki/Gabonese_cuisine", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "gab.dish.gari", :name "Gari", :country "GAB", :kind :dish, :summary "Cassava flour prepared as a porridge, named among the traditional dishes of Gabonese cuisine.", :url "https://en.wikipedia.org/wiki/Gabonese_cuisine", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "gab.beverage.palm-wine", :name "Palm wine (toutou)", :country "GAB", :kind :beverage, :summary "Alcoholic beverage made from palm sap and consumed across Africa; in Gabon it is known as toutou.", :url "https://en.wikipedia.org/wiki/Palm_wine", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "gab.product.wild-mango", :name "Wild mango (Irvingia gabonensis)", :country "GAB", :kind :product, :summary "African tree valued for its fat- and protein-rich nuts, often used in Gabonese cuisine to season poultry and meat and preserved as dika bread; the Gabonese government has prohibited logging of the tree until 2034.", :url "https://en.wikipedia.org/wiki/Irvingia_gabonensis", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "gab.heritage.lope", :name "Lopé National Park", :country "GAB", :kind :heritage, :summary "National park in central Gabon designated a UNESCO World Heritage Site in 2007 as the 'Ecosystem and Relict Cultural Landscape of Lopé-Okanda', noted for its savanna-forest ecosystem and petroglyphs.", :url "https://en.wikipedia.org/wiki/Lop%C3%A9_National_Park", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "gab.heritage.ivindo", :name "Ivindo National Park", :country "GAB", :kind :heritage, :summary "3,000 km2 tropical-forest national park in east-central Gabon with spectacular waterfalls and forest elephants, designated a UNESCO World Heritage Site in 2021.", :url "https://en.wikipedia.org/wiki/Ivindo_National_Park", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+]
