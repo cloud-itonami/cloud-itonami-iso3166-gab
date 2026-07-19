@@ -1,9 +1,10 @@
 # cloud-itonami-iso3166-gab
 
-**GAB**: Gabonese Republic.
+**`:implemented`** for **GAB**. Flagship `ga-entity-missing`, tax `rccm-unverified`.
 
-- DGMP public procurement
-- RCCM + NIF
+```
+clojure -M:dev:test
+```
 
 AGPL-3.0-or-later.
 
