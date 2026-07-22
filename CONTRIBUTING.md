@@ -1,6 +1,6 @@
 # Contributing
 
-`cloud-itonami-iso3166-khm` accepts contributions to the OSS actor, governor tests,
+`cloud-itonami-iso3166-gab` accepts contributions to the OSS actor, governor tests,
 documentation, examples and open business blueprint.
 
 ## Development
